@@ -68,6 +68,7 @@ if __name__ == "__main__":
 
     try:
         ser = serial.Serial(serialPort, 115200)
+        print("Serial Connected - ready for input.")
         while(True):
             line  = ser.readline()
             line = line.decode('utf-8')
