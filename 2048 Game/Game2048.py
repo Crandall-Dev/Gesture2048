@@ -265,5 +265,6 @@ if __name__=='__main__':
 	#g.resize(500,400)
 	g.changeGridSize(3)
 	g.setWindowTitle('2048 Game')
-	g.show()
+	#g.show()
+	g.showFullScreen()
 	app.exec_()

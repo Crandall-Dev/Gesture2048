@@ -35,8 +35,8 @@ void setup()
     while(true) { }
   }
 
-  sensor.setGestureEntryTime(100);
-  sensor.setGestureExitTime(200);
+  sensor.setGestureEntryTime(500);
+  sensor.setGestureExitTime(800);
 
   Serial.println("{\"state\": \"OK\"}");
 }
