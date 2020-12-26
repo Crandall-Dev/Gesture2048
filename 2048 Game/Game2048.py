@@ -186,6 +186,16 @@ class Game2048(QtGui.QWidget):
 			self.left()
 		elif e.key()==QtCore.Qt.Key_Right:
 			self.right()
+		elif e.key()==QtCore.Qt.Key_U:
+			self.up()
+		elif e.key()==QtCore.Qt.Key_D:
+			self.down()
+		elif e.key()==QtCore.Qt.Key_L:
+			self.left()
+		elif e.key()==QtCore.Qt.Key_R:
+			self.right()
+		elif e.key()==QtCore.Qt.Key_W:
+			self.reset_game()
 
 	def mousePressEvent(self,e):
 		self.lastPoint=e.pos()
